@@ -1,0 +1,16 @@
+var bestPlaces = ["Australia", "Russia", "Newzeland", "Canada", "Germany"];
+console.log(bestPlaces);
+var alphaOrder = bestPlaces.slice().sort();
+console.log(alphaOrder);
+console.log(bestPlaces);
+var reverseOrder = bestPlaces.slice().reverse();
+console.log(reverseOrder);
+console.log(bestPlaces);
+bestPlaces.reverse();
+console.log(bestPlaces);
+bestPlaces.reverse();
+console.log(bestPlaces);
+bestPlaces.sort();
+console.log(bestPlaces);
+bestPlaces.reverse();
+console.log(bestPlaces);
